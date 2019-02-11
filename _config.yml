@@ -20,11 +20,11 @@ encoding: utf-8
 #
 # Jekyll Settings
 #
-permalink: /archive/:year/:month/:day/:title/
-paginate: 20
-page_group_size: 5 # number of pages to group by in the pagination.
-paginate_path: "/archive/page/:num"
-category_dir: categories
+# permalink: /archive/:year/:month/:day/:title/
+# paginate: 20
+# page_group_size: 5 # number of pages to group by in the pagination.
+# paginate_path: "/archive/page/:num"
+# category_dir: categories
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -67,4 +67,4 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
- - jekyll-paginate
+ 
