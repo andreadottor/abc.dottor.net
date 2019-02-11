@@ -15,8 +15,8 @@ Per ora non mi pongo nemmeno obiettivi (per non mancarli da subito). Idee ce ne 
 
 Ma il primo passo è fatto.
 
-  A B C
+>A B C
 
-  1 2 3
+>1 2 3
 
 ...e da qui si parte!
