@@ -1,0 +1,70 @@
+title: Blog di Andrea Dottor
+author: Andrea Dottor
+# email: your-email@domain.com  # Comment out this line if you don't want to expose your email.
+description: > # this means to ignore newlines until "twitter_username:"
+  Pensieri liberi di una mente dispersa 
+
+show_excerpts: true # set to true to show excerpts on the homepage
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://abc.dottor.net"
+
+
+# Build settings
+highlighter: rouge
+markdown: kramdown
+
+exclude: ['README.md', 'CODE_OF_CONDUCT.md']
+encoding: utf-8
+
+#
+# Jekyll Settings
+#
+permalink: /archive/:year/:month/:day/:title/
+paginate: 20
+page_group_size: 5 # number of pages to group by in the pagination.
+paginate_path: "/archive/page/:num"
+category_dir: categories
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    twitter: dottor
+    github:  andreadottor
+    rss: rss
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    # instagram: jekyll
+    linkedin: andrea.dottor
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+- about.md
+
+# Build settings
+theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-paginate
