@@ -1,7 +1,7 @@
 ---
 layout: post
 
-header_image: /img/posts/si-ricomincia-abc-123/header.jpg
+header_image: /images/posts/si-ricomincia-abc-123/header.jpeg
 title: "Si ricomincia...A B C, 1 2 3"
 author: Andrea Dottor
 tags:
