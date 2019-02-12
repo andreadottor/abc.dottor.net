@@ -4,10 +4,11 @@ title: Privacy policy
 permalink: /privacy/
 ---
 
-# Privacy Policy
-
 This site doesn't itself collect data. It's a static site hosted on GitHub Pages.
+
 However, I do use Google Analytics so it's worth looking at [Google Analytic's privacy policy](http://www.google.com/analytics/learn/privacy.html).
+
+I use Disqus for manage comments, and you can read [Disqus privacy policy](https://help.disqus.com/terms-and-policies/disqus-privacy-policy).
 
 ## Cookies
 
