@@ -20,9 +20,8 @@ layout: default
       
       {%- if tags.size > 0 -%}
         <span class="tags">
-            • 
           {% for tag in tags %}
-            {{ tag }}
+            #{{ tag }}
           {% endfor %}
         </span>
       {%- endif -%}

@@ -2,7 +2,9 @@ title: Blog di Andrea Dottor
 author: Andrea Dottor
 # email: your-email@domain.com  # Comment out this line if you don't want to expose your email.
 description: > # this means to ignore newlines until "baseurl:"
-  Pensieri liberi di una mente dispersa 
+  Pensieri liberi di una mente dispersa.
+  Di codice, di parole, di persone...
+  ...
 
 exclude: ['README.md', 'CODE_OF_CONDUCT.md']
 show_excerpts: true # set to true to show excerpts on the homepage
@@ -32,7 +34,7 @@ minima:
   social_links:
     twitter: dottor
     github: andreadottor
-    linkedin: andrea.dottor
+    linkedin: andreadottor
     rss: rss
     # dribbble: jekyll
     # facebook: jekyll
