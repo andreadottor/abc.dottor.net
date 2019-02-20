@@ -22,7 +22,7 @@ Ho voluto approfondire un pò la cosa per capire chi ci fosse dietro a questo li
 
 ### Da dove ha inizio
 
-Markdown nasce nel 2004 da un'idea di [John Gruber](https://en.wikipedia.org/wiki/John_Gruber), e (Aaron Swartz)[https://en.wikipedia.org/wiki/Aaron_Swartz] ha poi collaborato per quanto riguarda la sintassi. Lo scopo (e ben riuscito) era quello di creare un linguaggio che fosse facilmente convertibile in html.
+Markdown nasce nel 2004 da un'idea di [John Gruber](https://en.wikipedia.org/wiki/John_Gruber), e [Aaron Swartz](https://en.wikipedia.org/wiki/Aaron_Swartz) ha poi collaborato per quanto riguarda la sintassi. Lo scopo (e ben riuscito) era quello di creare un linguaggio che fosse facilmente convertibile in html.
 
 ### Una storia triste
 
@@ -34,9 +34,9 @@ Spendete 5 minuti e leggete qui la sua vita: [https://it.wikipedia.org/wiki/Aaro
 
 Per muovere i primi passi, e scrivere un semplice post, non servono molte regole. I titoli (che vanno in html dal H1 al H6) si fanno inserendo ad inizio riga il carattere #. 
 
-Se parte del testo la vogliamo in grassetto, la racchiudiamo tra due caratteri \*, o \_. Es: \*\*ciao\*\* --> **ciao**
+Se parte del testo la vogliamo in grassetto, lo racchiudiamo tra due caratteri **\*** (oppure **\_**). Es: \*\*ciao\*\* --> **ciao**
 
-Per il corsivo un \*, o un \_. Es: \*ciao\* --> *ciao*
+Per il corsivo un carattere **\*** (oppure **\_**). Es: \*ciao\* --> *ciao*
 
 #### Headers
 
@@ -54,13 +54,13 @@ Per il corsivo un \*, o un \_. Es: \*ciao\* --> *ciao*
     Combined emphasis with **asterisks and _underscores_**.
     Strikethrough uses two tildes. ~~Scratch this.~~
 
-Da qui a scrivere un post con immagini, tabelle, link, il passo è davvero breve. Nei link in coda al post trovate tutte le regole di sintassi che potete utilizzare. 
+Da qui a scrivere un post con immagini, tabelle, link, il passo è davvero breve. Nei link in coda al post trovate tutte le regole di sintassi che si possono utilizzare. 
 
 Non trovate il modo di fare *qualcosa* con la sua sintassi? Nessuna paura, è possibile inserire direttamente dei tag html all'interno del file, e questi verranno renderizzati così come inseriti. Quindi nessun limite a ciò che si può fare.
 
 ### Uitlità
 
-Più uso *markdown* e più mi pento di non averlo conosciuto prima.
+Più uso la sintassi *markdown* e più mi pento di non averla conosciuta prima. Se la aggiungessero su OneNote sarei davvero alle stelle :-) 
 
 Dal prendere appunti durante una riunione, al scrivere post in questo blog, al scrivere i file readme.md in GitHub, trovo che markdown faciliti e velocizzi tutte queste attività.
 
