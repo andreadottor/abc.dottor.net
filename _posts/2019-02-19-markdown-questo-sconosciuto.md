@@ -35,6 +35,7 @@ Spendete 5 minuti e leggete qui la sua vita: [https://it.wikipedia.org/wiki/Aaro
 Per muovere i primi passi, e scrivere un semplice post, non servono molte regole. I titoli (che vanno in html dal H1 al H6) si fanno inserendo ad inizio riga il carattere #. 
 
 Se parte del testo la vogliamo in grassetto, la racchiudiamo tra due caratteri \*, o \_. Es: \*\*ciao\*\* --> **ciao**
+
 Per il corsivo un \*, o un \_. Es: \*ciao\* --> *ciao*
 
 #### Headers
