@@ -18,15 +18,15 @@ Questo blog sfrutta [Jekyll](https://jekyllrb.com/) e [GitHub Pages](https://pag
 Ho sempre sottovalutato questo linguaggio, in quanto lo associavo principalmente (ed in modo *super-mega-riduttivo*) ai soli file README di GitHub. Ma mi sono dovuto ricredere.
 Studiandomi Jekyll, e la sintassi markdown, ho appreso un'estreme facilità nel creare html/post/pagine. Un linguaggio che ha delle potenzialità, e molto semplice ed immediato nel suo utilizzo.
 
-Ho voluto capire da dove nascesse tutto cià.
+Ho voluto approfondire un pò la cosa per capire chi ci fosse dietro a questo linguaggio, e quale fosse lo scopo.
 
 ### Da dove ha inizio
 
-Markdown è nato nel 2004 da [John Gruber](https://en.wikipedia.org/wiki/John_Gruber), e (Aaron Swartz)[https://en.wikipedia.org/wiki/Aaron_Swartz] ha poi collaborato per quanto riguarda la sintassi. Lo scopo (e ben riuscito) era quello di creare un linguaggio che fosse facilmente convertibile in html.
+Markdown nasce nel 2004 da un'idea di [John Gruber](https://en.wikipedia.org/wiki/John_Gruber), e (Aaron Swartz)[https://en.wikipedia.org/wiki/Aaron_Swartz] ha poi collaborato per quanto riguarda la sintassi. Lo scopo (e ben riuscito) era quello di creare un linguaggio che fosse facilmente convertibile in html.
 
 ### Una storia triste
 
-Leggendo vari articoli, e cercando di capire meglio chi fossero i due autori, incappo nella storia di Aaron Swartz e rimango bloccato nel leggere che è nato a Chicago l'8 novembre 1986, ma (già) morto a New York l'11 gennaio 2013. Togliersi la vita a 27 anni ha dell'assurdo. Triste. Demoralizzante.
+Leggendo vari articoli, e cercando di capire meglio chi fossero i due autori, incappo nella storia di Aaron Swartz e rimango sconvolto dall sua storia. Nato a Chicago l'8 novembre 1986, morto a New York l'11 gennaio 2013. Si è tolto la vita. Aveva 27 anni. Troppe cose sulle spalle. La depressione. E sono triste. Demoralizzato.
 
 Spendete 5 minuti e leggete qui la sua vita: [https://it.wikipedia.org/wiki/Aaron_Swartz](https://it.wikipedia.org/wiki/Aaron_Swartz)
 
