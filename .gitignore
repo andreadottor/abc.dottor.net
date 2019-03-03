@@ -4,5 +4,5 @@ Gemfile.lock
 _site
 *.gem
 .vs
-vendor
+/vendor/
 .jekyll-metadata
