@@ -1,11 +1,15 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="row">
+  <div class="col">
+
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
     {% if page.header_image %}
-    <img class="img-responsive" alt="{{ page.title }} header image" src="{{ page.header_image | prepend: site.baseurl }}" />
+    <img class="img-fluid" alt="{{ page.title }} header image" src="{{ page.header_image | prepend: site.baseurl }}" />
     {% endif %}
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
@@ -21,13 +25,16 @@ layout: default
       {%- if tags.size > 0 -%}
         <span class="tags">
           {% for tag in tags %}
-            #{{ tag }}
+            <i class="fas fa-tag"></i>{{ tag }}
           {% endfor %}
         </span>
       {%- endif -%}
     </p>
   </header>
 
+  <div>
+
+  </div>
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
@@ -38,3 +45,5 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
+</div>
+</div>

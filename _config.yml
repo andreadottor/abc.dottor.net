@@ -6,8 +6,9 @@ description: > # this means to ignore newlines until "baseurl:"
   Di codice, di parole, di persone...
   ...
 
-exclude: ['README.md', 'CODE_OF_CONDUCT.md']
+exclude: ['README.md', 'CODE_OF_CONDUCT.md', 'vendor/bundle']
 show_excerpts: true # set to true to show excerpts on the homepage
+excerpt_separator: <!--more-->
 
 #
 # Jekyll Settings
@@ -61,7 +62,9 @@ header_pages:
 - about.md
 
 # Build settings
-theme: minima
+# theme: minima
+
+encoding: utf-8
 
 plugins:
  - jekyll-feed

@@ -1,36 +1,34 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
-  <div class="wrapper">
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col one-half">
-        <!--<h2 class="footer-heading">{{ site.title | escape }}</h2>-->
-        <ul class="contact-list">
-          <li class="p-name">
+<footer class="border-top footer text-muted mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <dl class="contact-list">
+          <dd class="p-name">
             {%- if site.author -%}
-             &copy; {{ site.author | escape }}
+            &copy; {{ site.author | escape }}
             {%- else -%}
-              {{ site.title | escape }}
+            {{ site.title | escape }}
             {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-            <li><a href="/privacy/" title="Privacy Policy">Privacy</a></li>
+          </dd>
+          {%- if site.email -%}
+          <dd><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></dd>
+          {%- endif -%}
+          <dd><a href="/privacy/" title="Privacy Policy">Privacy</a></dd>
         </ul>
       </div>
+      <div class="col">
+        <div class="footer-col one-half">
+          <p>{{- site.description | escape -}}</p>
 
-      <div class="footer-col one-half">
-        <p>{{- site.description | escape -}}</p>
-        
-      </div>
+        </div>
 
-      <div class="social-links">
-        {%- include social.html -%}
+        <div class="social-links">
+          {%- include social.html -%}
+        </div>
+
       </div>
     </div>
-
   </div>
-
 </footer>

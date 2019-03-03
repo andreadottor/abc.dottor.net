@@ -1,12 +1,9 @@
 ---
 layout: post
-
 header_image: /images/posts/markdown-questo-sconosciuto/header.jpg
 title: "Markdown, questo sconosciuto"
 author: Andrea Dottor
-tags:
-- DevLife
-- Markdown
+tags: [DevLife, Markdown]
 ---
 
 Con la volontà di ritornare a scrivere ho cercato nuovi stimoli/tecnologie, e nel mettere in piedi questo blog ho trovato alcune tematiche per i primi post.
