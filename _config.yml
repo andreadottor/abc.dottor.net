@@ -66,6 +66,9 @@ header_pages:
 
 encoding: utf-8
 
+sass:
+    style: compressed
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
