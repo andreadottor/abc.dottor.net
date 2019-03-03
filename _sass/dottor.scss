@@ -1,5 +1,7 @@
-// Import partials.
+@charset "utf-8";
+
 @import "bootstrap/bootstrap";
+@import "dottor/syntax-highlighting";
 
 .social-media-list {
     display: table;
@@ -30,4 +32,8 @@
 
   .tags i {
       color: #ccc;
+  }
+
+  .home .post{
+      margin-bottom: 30px;
   }
