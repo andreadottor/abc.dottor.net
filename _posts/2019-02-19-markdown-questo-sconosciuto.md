@@ -9,7 +9,7 @@ tags: [DevLife, Markdown]
 Con la volontà di ritornare a scrivere ho cercato nuovi stimoli/tecnologie, e nel mettere in piedi questo blog ho trovato alcune tematiche per i primi post.
 
 Questo blog sfrutta [Jekyll](https://jekyllrb.com/) e [GitHub Pages](https://pages.github.com/), due tecnologie che lavorano assieme e permettono di convertire del testo scritto in *markdown* in pagine statiche (html) che vengono subito esposte nel web. E da qui nasce questo post.
-
+<!--more-->
 ### Markdown
 
 Ho sempre sottovalutato questo linguaggio, in quanto lo associavo principalmente (ed in modo *super-mega-riduttivo*) ai soli file README di GitHub. Ma mi sono dovuto ricredere.

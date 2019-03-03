@@ -18,14 +18,16 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
+        <i class="far fa-user"></i>  
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
       {%- endif -%}
       {% assign tags = page.tags | default: post.tags %}
       
       {%- if tags.size > 0 -%}
         <span class="tags">
+          <i class="fas fa-tags"></i>
           {% for tag in tags %}
-            <i class="fas fa-tag"></i>{{ tag }}
+            {{ tag }}
           {% endfor %}
         </span>
       {%- endif -%}
