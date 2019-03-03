@@ -1,39 +1,5 @@
 // Import partials.
-@import
-  "bootstrap/bootstrap"
-;
-
-
-// .social-media-list {
-//     display: table;
-//     margin: 0 auto;
-//     li {
-//       float: left;
-//       list-style-type: none;
-//       margin: 0 5px;
-//       &:first-of-type { margin-left: 0 }
-//       &:last-of-type { margin-right: 0 }
-//       a {
-//         //display: block;
-//         // padding: $spacing-unit / 4;
-//         border: 1px solid #ccc;
-//         width: 16px;
-//         height: 16px;
-//       }
-//       &:hover .svg-icon { fill: currentColor; }
-//     }
-//   }
-
-// ul.social-media-list li{
-//     float: left;
-//     list-style-type: none;
-// }
-
-// .social-media-list li a {
-//     border: 1px solid #ccc;
-//     padding: 4px;
-//     color: gray;
-// }
+@import "bootstrap/bootstrap";
 
 .social-media-list {
     display: table;
@@ -44,6 +10,7 @@
     float: left;
     list-style-type: none;
 }
+
 .social-media-list li a {
     border: 1px solid #ccc;
     padding: 4px;
