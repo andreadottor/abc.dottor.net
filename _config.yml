@@ -1,5 +1,7 @@
 title: Blog di Andrea Dottor
 author: Andrea Dottor
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://abc.dottor.net" # the base hostname & protocol for your site
 # email: your-email@domain.com  # Comment out this line if you don't want to expose your email.
 description: > # this means to ignore newlines until "baseurl:"
   Pensieri liberi di una mente dispersa.
