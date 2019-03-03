@@ -67,7 +67,7 @@ header_pages:
 encoding: utf-8
 
 sass:
-    sass_dir: _sass
+    sass_dir: assets/css
 
 plugins:
  - jekyll-feed

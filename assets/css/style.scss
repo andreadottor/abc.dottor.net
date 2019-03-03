@@ -2,4 +2,40 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import "dottor";
+@import 'bootstrap/bootstrap';
+@import 'dottor/syntax-highlighting';
+
+.social-media-list {
+    display: table;
+    margin: 0 auto;
+}
+
+.social-media-list li{
+    float: left;
+    list-style-type: none;
+}
+
+.social-media-list li a {
+    border: 1px solid #ccc;
+    padding: 4px;
+    color: gray;
+    margin: 10px;
+}
+
+.svg-icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    fill: currentColor;
+    padding: 5px 3px 2px 5px;
+    vertical-align: text-bottom;
+    box-sizing: content-box;
+  }
+
+  .tags i {
+      color: #ccc;
+  }
+
+  .home .post{
+      margin-bottom: 30px;
+  }
