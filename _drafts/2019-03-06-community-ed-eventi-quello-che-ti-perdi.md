@@ -11,7 +11,7 @@ Ti organizzo un evento ad un passo da casa e mi rispondi “*non vengo tanto non
 E se pensi/aspetti che sia l'azienda a doverti mandare, non hai capito ~~un cazzo~~, sono finiti quei tempi, e dovresti pensare *tu* per primo alla *tua* formazione.
 
 Le community, e gli eventi che vengono organizzati, non sono fatti *solo* da contenuti, ma sono fatti da **Persone**...o meglio, sono fatti **dalle Persone** che li frequentano e li vivono.
-
+<!--more-->
 La prossima volta che partecipi ad una serata di [XE](https://www.xedotnet.org), fermati a cena (il famoso **terzo tempo**), e scoprirai che i veri contenuti, che quel qualcosa in più, salta fuori proprio lì, quando (con una buona birra in mano) ci si scambia le proprie esperienze, ci si confronta...e si cresce. Sono le esperienze personali a fare la differenza!
 
 A [XE](https://www.xedotnet.org/) abbiamo instaurato (da più di un anno) i *Monthly members meeting*, degli incontri mensili per i soci, nati per portare avanti le attività del gruppo (newsletter, organizzazione agenda, ...) ma sopratutto momenti per potersi incontrare di persona e fare *Gruppo*. Perché di user-group online ne è pieno il mondo, ma quello che manca è sempre l’opportunità di trovarsi faccia a faccia e confrontarsi di persona. Tutti noi abbiamo una famiglia o degli amici, e non è di certo quella serata a rubare del tempo.
