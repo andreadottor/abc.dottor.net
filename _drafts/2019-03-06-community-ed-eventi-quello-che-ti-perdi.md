@@ -18,7 +18,7 @@ A [XE](https://www.xedotnet.org/) abbiamo instaurato (da più di un anno) i *Mon
 
 Online si trovano corsi su qualsiasi tecnologia, anche l’ultima uscita. Agli incontri delle *community* troverai invece chi queste tecnologie le ha spremute fino all’ultimo bit, chi ci ha fatto *prodotto*, e chi ha commesso una svalangata di errori e può suggerirti cosa non devi assolutamente fare.
 
-Quindi ora non ti rimane che guardare quali sono i prossimi eventi a calendario ([eventi XE](https://www.xedotnet.org/eventi/)), oppure registrarsi alla newsletter, così da rimanere constantemente aggiornati ([iscriviti alla newsletter](https://www.xedotnet.org/#newsletter)).
+Quindi ora non ti rimane che guardare quali sono i prossimi eventi a calendario ([eventi XE](https://www.xedotnet.org/eventi/)), oppure registrarsi alla newsletter per rimanere aggiornato ([iscriviti alla newsletter](https://www.xedotnet.org/#newsletter)).
 
 Se non abiti qui nei dintorni, sono certo che anche dalle tue parti esiste una community o un gruppo di persone che organizza eventi come i nostri. Non ti rimane che [cercare](https://www.google.it/).
 
