@@ -11,6 +11,8 @@ exclude: ['README.md', 'CODE_OF_CONDUCT.md', 'vendor/bundle']
 show_excerpts: true # set to true to show excerpts on the homepage
 excerpt_separator: <!--more-->
 
+google_analytics: 'UA-135789741-1'
+
 #
 # Jekyll Settings
 #
