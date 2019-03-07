@@ -2,6 +2,11 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+$theme-colors: (
+  "primary": #3ea69b,
+);
+
+
 @import 'bootstrap/bootstrap';
 @import 'dottor/syntax-highlighting';
 

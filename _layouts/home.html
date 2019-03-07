@@ -16,7 +16,7 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
 
-  {%- for post in site.posts -%}
+  {%- for post in site.posts limit:10 -%}
   <article class="post">
     <header class="row">
       <div class="col">
@@ -39,4 +39,10 @@ layout: default
   {%- endfor -%}
   {%- endif -%}
 
+
+  {%- if site.posts.size > 10 -%}
+    <hr/>
+    <br/>
+    <a href='{{ "/archive/posts/" | prepend: site.baseurl }}'><i class="fas fa-angle-double-left"></i> Show archived posts</a>
+  {%- endif -%}
 </div>

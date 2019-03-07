@@ -5,7 +5,7 @@ permalink: /archive/posts/
 ---
 
 <div class="home-content">
-  <h2 class="page-heading"><i class="fas fa-archive"></i> Posts Archive</h2>
+  <h1 class="page-heading text-primary"><i class="fas fa-archive"></i> Posts Archive</h1>
 <hr />
   {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%B %Y" %}
