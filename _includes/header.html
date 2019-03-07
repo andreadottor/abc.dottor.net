@@ -4,9 +4,9 @@
           {%- assign default_paths = site.pages | map: "path" -%}
           {%- assign page_paths = site.header_pages | default: default_paths -%}
           {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-          <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">
+          <a class="navbar-brand mb-0 h1 text-primary" rel="author" href="{{ "/" | relative_url }}">
             <img src="/images/logo_abc.png" alt="logo abc" />
-            {{ site.title | escape }}
+            {{ site.author }}<!--{{ site.title | escape }}-->
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                   aria-expanded="false" aria-label="Toggle navigation">
