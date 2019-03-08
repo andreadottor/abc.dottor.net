@@ -7,4 +7,19 @@ author: Andrea Dottor
 tags: [Blog, Tech]
 ---
 
-Post di esempio
+## Github Pages
+
+## Iniziare con Jekyll . La strada più semplice
+
+Clonare blog/repository esistente  e fare upload su github.
+
+
+## Iniziare con Jekyll . La strada migliore
+
+### Attivare WSL
+
+### Installare Jekyll
+
+### Utilizzare Jekyll
+
+## Creare un tema utilizzando Bootstrap 4
