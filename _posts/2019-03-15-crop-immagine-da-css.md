@@ -11,9 +11,10 @@ Le potenzialità che offrono i fogli di stile sono davvero molte, e non si finis
 
 Problematica del giorno, trovare il modo di tagliare (fare il crop) dell'immagine che trovate qui sopra al post, ma in modo automatico, senza che debba aprire Photoshop, Paint o altri applicativi. E mi sono messo alla [ricerca](https://www.google.com).
 <!--more-->
+
 Soluzione trovata!
 
-Tramite lo stile **object-fit** è possibile decidere come l'immagine si deve adattare al tag **img**.
+Tramite lo stile **object-fit** è possibile indicare come l'immagine si deve adattare al tag **img**.
 
 ## object-fit:
 
