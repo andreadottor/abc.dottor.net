@@ -30,7 +30,7 @@ var speakerFinded = (from ev in _events
                     .FirstOrDefault();
 ```
 
-Riporto qui la classe **LevenshteinDistance** che ho trovato, e che potrebbe tornare utile anche a qualcuno di voi.
+Riporto qui la classe **LevenshteinDistance** che ho utilizzato, e che potrebbe tornare utile anche a qualcuno di voi.
 
 ```cs
 /// <summary>
@@ -88,7 +88,7 @@ static class LevenshteinDistance
 }
 ```
 
-Se avete trovato una soluzione migliore, beh, condividetemela qui nei commenti. Non capita spesso di risolvere questo genere di problematiche, quindi ogni suggerimento o miglioramento è ben accetto. ;-)
+Se conoscete una soluzione migliore, beh, condividetela qui nei commenti. Non capita spesso di risolvere questo genere di problematiche, quindi ogni suggerimento o miglioramento è ben accetto. ;-)
 
 ### Links
 
