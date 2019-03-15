@@ -10,23 +10,29 @@ layout: default
   <header class="post-header">
     {% if page.header_image %}
     <img class="img-fluid" alt="{{ page.title }} header image" src="{{ page.header_image | prepend: site.baseurl }}" />
+    {% if page.header_image_credits %}
+    <div class="text-right credits">
+      {{page.header_image_credits}}
+    </div>
+    {% endif %}
     {% endif %}
     <h1 class="post-title p-name text-primary" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
+        <i class="far fa-calendar-alt"></i>
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
-        <i class="far fa-user"></i>  
+        <i class="far fa-user ml-3"></i>  
         <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
-      {%- endif -%}
+        {%- endif -%}
       {% assign tags = page.tags | default: post.tags %}
       
       {%- if tags.size > 0 -%}
-        <span class="tags">
-          <i class="fas fa-tags"></i>
+        <span class="tags ml-3">
           {% for tag in tags %}
+            <i class="fas fa-tag"></i>
             {{ tag }}
           {% endfor %}
         </span>
