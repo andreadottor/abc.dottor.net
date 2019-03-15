@@ -98,3 +98,6 @@ L'idea sarebbe anche di aggiungere un mio personale commento ad ogni singolo art
 
 * [These Cookie Warning Shenanigans Have Got to Stop](https://www.troyhunt.com/these-cookie-warning-shenanigans-have-got-to-stop/)
     >[...] So in summary, everyone clicks through cookie warnings anyway, if you read them you either can't understand what they're saying or the configuration of privacy settings is a nightmare, depending on where you are in the world you either don't get privacy or you don't get UX hell, if you understand the privacy risks then it's easy to open links incognito or use an ad blocker, you can still be tracked anyway and finally, the whole thing is just conditioning people to make bad security choices. That is all.
+
+* [Introduction to SQL Server Security — Part 3](https://www.red-gate.com/simple-talk/sysadmin/data-protection-and-privacy/introduction-to-sql-server-security-part-3)
+    >SQL Server supports partially contained databases. This gives you the option of adding database users with a password inside the database. This makes the database easier to move to another instance or participate in an Always On Availability Group. In this article, Robert Sheldon explains how to work with users in contained databases.
