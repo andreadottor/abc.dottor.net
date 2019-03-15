@@ -88,6 +88,8 @@ static class LevenshteinDistance
 }
 ```
 
+Se avete trovato una soluzione migliore, beh, condividetemela qui nei commenti. Non capita spesso di risolvere questo genere di problematiche, quindi ogni suggerimento o miglioramento è ben accetto. ;-)
+
 ### Links
 
 Per chi volesse approfondire, ecco alcuni link:
