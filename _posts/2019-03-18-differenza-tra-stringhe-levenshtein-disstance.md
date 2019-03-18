@@ -99,4 +99,4 @@ Per chi volesse approfondire, ecco alcuni link:
 * [codeproject: Fast, memory efficient Levenshtein algorithm](https://www.codeproject.com/Articles/13525/Fast-memory-efficient-Levenshtein-algorithm)
 * [wikibooks: Algorithm Implementation/Strings/Levenshtein distance](https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance)
 * [The Levenshtein-Algorithm](http://www.levenshtein.net/)
-* 
+
