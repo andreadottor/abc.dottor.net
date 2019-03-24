@@ -85,6 +85,9 @@ Ma ho comunque trovato un po’ di tempo per riportare in questo post alcuni art
 
 * [Microsoft Teams wins Enterprise Connect Best in Show award and delivers new experiences for the intelligent workplace](https://www.microsoft.com/en-us/microsoft-365/blog/2019/03/19/microsoft-teams-experiences-intelligent-workplace/)
     >Today, at the Enterprise Connect event in Orlando, Florida, Microsoft Teams won the Best in Show award for the second year in a row in recognition for its vision for making communication and collaboration easier for the entire workforce, including those on the frontline. This week marks the second anniversary of the worldwide launch of Microsoft Teams. Over the past two years, Teams has grown significantly in both new capabilities and customer usage, as the hub for teamwork that brings people together and fosters a culture of engagement and inclusion. We’re unveiling eight new capabilities in Teams that make collaboration more inclusive, effective, and secure. [...]
+    
+* [Tutorial: Secure Azure SQL Database connection from App Service using a managed identity](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-connect-msi)
+    >App Service provides a highly scalable, self-patching web hosting service in Azure. It also provides a managed identity for your app, which is a turn-key solution for securing access to Azure SQL Database and other Azure services. Managed identities in App Service make your app more secure by eliminating secrets from your app, such as credentials in the connection strings. In this tutorial, you will add managed identity to the sample ASP.NET web app you built in Tutorial: Build an ASP.NET app in Azure with SQL Database. When you're finished, your sample app will connect to SQL Database securely without the need of username and passwords. [...]
 
 
 
