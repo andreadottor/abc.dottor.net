@@ -22,5 +22,10 @@ abc
     
 
     
+## Altri
 
+* [Convert Windows PC to Linux (Ubuntu)](https://auth0.com/blog/convert-windows-pc-to-linux-ubuntu-dev-environment/)
+    >Imagine for a moment that you're stranded on a desert island. You're a software developer and have been using Linux systems or an Apple Mac ever since you were old enough to type on a keyboard. Yet the only things that you were able to bring with you to your desert island was a Windows machine, and enough tea and biscuits to last a lifetime. Luckily the island already has an internet connection — what do you do?
+    >
+    >Okay, you could just download Ubuntu and install it onto a Virtual Machine, but there is another way. Which as it happens, also involves installing Ubuntu... [...]
     
