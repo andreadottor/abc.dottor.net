@@ -1,6 +1,7 @@
 ---
 layout: post
-header_image: /images/posts/network.jpg
+header_image: /images/posts/the-fence-428562_1280.jpg
+header_image_credits: Image by <a href="https://pixabay.com/users/jarmoluk-143740/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=428562">Michal Jarmoluk</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=428562">Pixabay</a>
 title: "Link della settimana #13"
 author: Andrea Dottor
 tags: [ASP.NET,Vue,ML,Links]
