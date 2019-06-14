@@ -9,13 +9,12 @@ tags: [ASP.NET,Razor]
 
 In un'applicazione ASP&#46;NET Core vi potrà capitare la necessità di avere una porzione di codice html che dovrà essere differente solo in alcune pagine. Un esempio, l'area di amministrazione molto spesso ha un menu diverso dalle pagine pubbliche. Oppure una pagina potrebbe evare una sidebar con alcune immagini al posto del classico menu.
 
-<!--more-->
 Se già utilizzate ASP&#46;NET Core, sapete benissimo che nel definire una sezione in una pagina di layout, è possibile indicare se questa sia obbligatoria o meno:
 
 ```cs
 @RenderSection("Scripts", required: false)
 ```
-
+<!--more-->
 Ma questo implica che:
 - **required: true** --> tutte le pagine devono definire tale contenuto. Quindi anche il contenuto di default deve essere definito in ogni singola pagina (o centralizzato in una partial, comunque inserita in ogni pagina)
 - **required: false** --> alcune pagine definiscono il contenuto della sezione. Vuol dire che quella sezione potrà essere renderizzata o meno. Ma non avrà un contenuto di dafault dove non definita.
