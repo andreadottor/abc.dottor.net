@@ -53,6 +53,14 @@ $theme-colors: (
       display: block;
   }
 
+  .home-post-img img {
+      border-radius: 5px;
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      display: block;
+  }
+
 
   /**
  * Blockquotes
