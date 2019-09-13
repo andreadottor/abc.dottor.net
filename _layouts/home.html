@@ -30,15 +30,11 @@ layout: default
       </div>
     </header>
     <div class="row">
-
-        {% if post.header_image %}
-        <div class="col-2 home-post-img">
-          <img class="img-fluid" alt="{{ post.title }} header image" src="{{ post.header_image | prepend: site.baseurl }}" />
-        </div>
-        {% endif %}
-
-
-      
+      {%- if post.header_image -%}
+      <div class="col-2 home-post-img">
+        <img class="img-fluid" alt="{{ post.title }} - post image" src="{{ post.header_image | prepend: site.baseurl }}" />
+      </div>
+      {%- endif -%}
       <div class="col">
         {{ post.excerpt }} <a href="{{ post.url | prepend: site.baseurl }}">Continue reading...</a>
       </div>
