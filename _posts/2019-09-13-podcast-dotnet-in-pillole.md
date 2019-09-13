@@ -28,7 +28,7 @@ Quindi, ora non vi rimane che seguire il mio podcast nel canale/sito/piattaforma
 - Spreaker: [https://www.spreaker.com/show/net-in-pillole](https://www.spreaker.com/show/net-in-pillole)
 - Apple podcast: [https://podcasts.apple.com/it/podcast/net-in-pillole/id1478648398](https://podcasts.apple.com/it/podcast/net-in-pillole/id1478648398)
 - Google podcast: [https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvMzY4NTM0NC9lcGlzb2Rlcy9mZWVk](https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvMzY4NTM0NC9lcGlzb2Rlcy9mZWVk)
-- Youtube: [https://www.youtube.com/channel/UCtumK8yKvhJd-XsUKq3P6RA](https://www.youtube.com/channel/UCtumK8yKvhJd-XsUKq3P6RA)
+- Youtube: [https://www.youtube.com/user/andreadottor/](https://www.youtube.com/user/andreadottor/)
 
 e datemi un feedback. Ditemi se l'episodio che avete ascoltato ha qualcosa che non va, o se vi è piaciuto. Sono nella strada giusta? Durano poco? Durano troppo? Di che cosa vorreste sentir parlare?
 
