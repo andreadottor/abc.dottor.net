@@ -24,11 +24,11 @@ Sono al terzo episodio registrato. Mi accorgo che non ho ancora la naturalezza n
 Durante le mie attività di consulenza mi accorgo che molti concetti che io do per scontato, non lo sono invece per molti, e saranno questi gli elementi di partenza. Molti non sentono la necessità di sapere come si sta evolvendo la tecnologia, ed ecco che seguendo il podcast, avrà modo di colmare questa lacuna. Nel nostro lavoro non possiamo mai stare fermi. Dobbiamo sempre sapere in che direzione andare.
 
 Quindi, ora non vi rimane che seguire il mio podcast nel canale/sito/piattaforma che preferite:
-- Spotify: https://open.spotify.com/show/7jyoG6BBmzvScNOqSpVvQQ
-- Spreaker: https://www.spreaker.com/show/net-in-pillole
-- Apple podcast: https://podcasts.apple.com/it/podcast/net-in-pillole/id1478648398
-- Google podcast: https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvMzY4NTM0NC9lcGlzb2Rlcy9mZWVk
-- Youtube: https://www.youtube.com/channel/UCtumK8yKvhJd-XsUKq3P6RA
+- Spotify: [https://open.spotify.com/show/7jyoG6BBmzvScNOqSpVvQQ](https://open.spotify.com/show/7jyoG6BBmzvScNOqSpVvQQ)
+- Spreaker: [https://www.spreaker.com/show/net-in-pillole](https://www.spreaker.com/show/net-in-pillole)
+- Apple podcast: [https://podcasts.apple.com/it/podcast/net-in-pillole/id1478648398](https://podcasts.apple.com/it/podcast/net-in-pillole/id1478648398)
+- Google podcast: [https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvMzY4NTM0NC9lcGlzb2Rlcy9mZWVk](https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvMzY4NTM0NC9lcGlzb2Rlcy9mZWVk)
+- Youtube: [https://www.youtube.com/channel/UCtumK8yKvhJd-XsUKq3P6RA](https://www.youtube.com/channel/UCtumK8yKvhJd-XsUKq3P6RA)
 
 e datemi un feedback. Ditemi se l'episodio che avete ascoltato ha qualcosa che non va, o se vi è piaciuto. Sono nella strada giusta? Durano poco? Durano troppo? Di che cosa vorreste sentir parlare?
 
