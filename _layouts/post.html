@@ -16,16 +16,6 @@ layout: default
     {% endif %}
   </header>
 
-  {% assign cover = page.header_image | strip %}
-  {% if cover != empty %}
-    <figure class="article-cover">
-      {% include cover-image.html path=cover alt=page.header_image_alt %}
-      {% if page.header_image_credits %}
-        <figcaption>{{ page.header_image_credits }}</figcaption>
-      {% endif %}
-    </figure>
-  {% endif %}
-
   <div class="prose" itemprop="articleBody">
     {{ content }}
   </div>

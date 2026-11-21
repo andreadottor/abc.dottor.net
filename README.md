@@ -17,7 +17,7 @@ Apri `http://localhost:4000`. Per includere le bozze, avvia `bundle exec jekyll 
 ## Articoli e struttura
 
 - Pubblica gli articoli in `_posts/AAAA-MM-GG-titolo.md` con il front matter `layout: post` e `title`. Metti le bozze in `_drafts/titolo.md`.
-- Usa `<!--more-->` per terminare l’estratto della homepage. Copertina, credito e testo alternativo si configurano con `header_image`, `header_image_credits` e `header_image_alt`. Per una copertina locale puoi registrare larghezza e altezza in pixel in `_data/cover_dimensions.yml` per conservarne le proporzioni e riservarle spazio durante il caricamento.
+- Usa `<!--more-->` per terminare l’estratto della homepage. Per l’anteprima Open Graph, `header_image` serve da fallback se `og_image` è assente. Inserisci diagrammi e screenshot nel corpo dell’articolo con la sintassi Markdown.
 - `index.html` contiene il titolo e l’introduzione della homepage. `_layouts/` e `_includes/` contengono i template, `assets/css/style.scss` gli stili e `_config.yml` la configurazione Jekyll. Conserva i permalink già pubblicati.
 
 ## Build e pubblicazione
