@@ -10,16 +10,12 @@ layout: default
 {% if latest %}
 <section class="latest" aria-labelledby="latest-title">
   <p class="section-label">Ultimo articolo</p>
-  {% assign cover = latest.header_image | strip %}
-  <article class="latest-article{% if cover != empty %} latest-with-image{% endif %}">
-    <header class="latest-heading">
+  <article class="latest-article">
+    <header>
       <p class="post-meta">{% include date.html date=latest.date %}</p>
       <h2 id="latest-title"><a href="{{ latest.url | relative_url }}">{{ latest.title | escape }}</a></h2>
     </header>
-    {% if cover != empty %}
-      {% include cover-image.html path=cover class="latest-image" %}
-    {% endif %}
-    <div class="latest-summary">
+    <div>
       {% if site.show_excerpts %}
         <div class="excerpt">{{ latest.excerpt }}</div>
       {% endif %}
