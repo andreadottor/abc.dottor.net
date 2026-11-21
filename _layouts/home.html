@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
-<h1 class="home-title">Dal codice all’architettura</h1>
-
-{{ content }}
+<header class="home-heading">
+  <h1 class="home-title">{{ page.title | escape }}</h1>
+  {{ content }}
+</header>
 
 {% assign latest = site.posts.first %}
 {% if latest %}
@@ -16,7 +17,7 @@ layout: default
       <h2 id="latest-title"><a href="{{ latest.url | relative_url }}">{{ latest.title | escape }}</a></h2>
     </header>
     {% if cover != empty %}
-      <img class="latest-image" src="{{ cover | relative_url | escape }}" alt="">
+      {% include cover-image.html path=cover class="latest-image" %}
     {% endif %}
     <div class="latest-summary">
       {% if site.show_excerpts %}
