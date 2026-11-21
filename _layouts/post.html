@@ -19,7 +19,7 @@ layout: default
   {% assign cover = page.header_image | strip %}
   {% if cover != empty %}
     <figure class="article-cover">
-      <img src="{{ cover | relative_url | escape }}" alt="">
+      {% include cover-image.html path=cover alt=page.header_image_alt %}
       {% if page.header_image_credits %}
         <figcaption>{{ page.header_image_credits }}</figcaption>
       {% endif %}

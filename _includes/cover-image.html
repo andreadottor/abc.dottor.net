@@ -1,0 +1,2 @@
+{%- assign dimensions = site.data.cover_dimensions[include.path] -%}
+<img{% if include.class %} class="{{ include.class }}"{% endif %} src="{{ include.path | relative_url | escape }}"{% if dimensions %} width="{{ dimensions[0] }}" height="{{ dimensions[1] }}"{% endif %} alt="{{ include.alt | escape }}">

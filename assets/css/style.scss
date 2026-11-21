@@ -142,10 +142,9 @@ iframe { max-width: 100%; }
   text-decoration-thickness: 2px;
 }
 
-.home-title {
-  padding-block: var(--section-space);
-  text-wrap: balance;
-}
+.home-heading { padding-block: clamp(1.75rem, 4vw, 3.25rem); }
+.home-title { text-wrap: balance; }
+.home-heading .intro-lead { max-width: 62ch; }
 
 .intro-lead {
   max-width: 42ch;
@@ -185,6 +184,9 @@ iframe { max-width: 100%; }
 .latest-image, .article-cover img {
   display: block;
   width: 100%;
+}
+
+.latest-image, .article-cover img:not([width][height]) {
   aspect-ratio: 16 / 9;
   object-fit: cover;
 }
@@ -269,6 +271,7 @@ blockquote {
 blockquote > :last-child { margin-bottom: 0; }
 
 .prose table, .excerpt table {
+  overflow-wrap: break-word;
   display: block;
   max-width: 100%;
   overflow-x: auto;
