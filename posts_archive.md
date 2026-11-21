@@ -1,29 +1,26 @@
 ---
 layout: default
-title: Archive
+title: Archivio
 permalink: /archive/posts/
 ---
 
-<div class="home-content">
-  <h1 class="page-heading text-primary"><i class="fas fa-archive"></i> Posts Archive</h1>
-<hr />
-  {% for post in site.posts %}
-  {% assign currentdate = post.date | date: "%B %Y" %}
-    {% if currentdate != date %}
-      {% unless forloop.first %}</ul>{% endunless %}
-        <h3 id="y{{post.date | date: "%B %Y"}}">{{ currentdate }}</h3>
-        <ul class="post-list list-unstyled">
-          {% assign date = currentdate %}
-    {% endif %}
+<div class="reading-column">
+  <header class="article-header">
+    <h1>Archivio</h1>
+    <p class="intro-lead">Tutti gli articoli, dal più recente.</p>
+  </header>
+  {% assign years = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for year in years %}
+  <section class="archive-year" aria-labelledby="anno-{{ year.name }}">
+    <h2 id="anno-{{ year.name }}">{{ year.name }}</h2>
+    <ul>
+      {% for post in year.items %}
       <li>
-        <i class="fas fa-angle-right"></i>
-        {%- assign date_format = "%-d %b" %}
-        {{ post.date | date: date_format }} - 
-        <a class="muted-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <span class="post-meta">{% include date.html date=post.date omit_year=true %}</span>
+        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
       </li>
-    {% if forloop.last %}
+      {% endfor %}
     </ul>
-    {% endif %}
+  </section>
   {% endfor %}
-
 </div>

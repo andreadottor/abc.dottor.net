@@ -1,53 +1,56 @@
 ---
 layout: default
 ---
-
-<div class="home">
-  {%- if page.title -%}
-  <div class="row">
-    <div class="col">
-      <h1 class="page-heading">{{ page.title }}</h1>
-    </div>
+<section class="home-intro" aria-labelledby="home-title">
+  <div>
+    <h1 id="home-title">Sviluppo .NET e<br class="intro-break"> architettura software</h1>
+    <p class="intro-lead">Appunti sulle decisioni tecniche che maturano nei progetti reali, dal codice al lavoro di squadra.</p>
   </div>
+  <aside class="author-note" aria-label="L’autore">
+    <p>Sono <strong>{{ site.author | escape }}</strong>. Mi occupo di consulenza e sviluppo software in ambito web e insegno tecnologie web e .NET.</p>
+    <a href="{{ '/about/' | relative_url }}">Chi sono</a>
+  </aside>
+</section>
 
-  {%- endif -%}
+{{ content }}
 
-  {{ content }}
-
-  {%- if site.posts.size > 0 -%}
-
-  {%- for post in site.posts limit:10 -%}
-  <article class="post">
-    <header class="row">
-      <div class="col">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-      </div>
+{% assign latest = site.posts.first %}
+{% if latest %}
+<section class="latest" aria-labelledby="latest-title">
+  <p class="section-label">Ultimo articolo</p>
+  {% assign cover = latest.header_image | strip %}
+  <article class="latest-article{% if cover != empty %} latest-with-image{% endif %}">
+    <header class="latest-heading">
+      <p class="post-meta">{% include date.html date=latest.date %}</p>
+      <h2 id="latest-title"><a href="{{ latest.url | relative_url }}">{{ latest.title | escape }}</a></h2>
     </header>
-    <div class="row">
-      {%- if post.header_image -%}
-      <div class="col-2 home-post-img">
-        <img class="img-fluid" alt="{{ post.title }} - post image" src="{{ post.header_image | prepend: site.baseurl }}" />
-      </div>
-      {%- endif -%}
-      <div class="col">
-        {{ post.excerpt }} <a href="{{ post.url | prepend: site.baseurl }}">Continue reading...</a>
-      </div>
+    {% if cover != empty %}
+      <img class="latest-image" src="{{ cover | relative_url | escape }}" alt="">
+    {% endif %}
+    <div class="latest-summary">
+      {% if site.show_excerpts %}
+        <div class="excerpt">{{ latest.excerpt }}</div>
+      {% endif %}
+      <a href="{{ latest.url | relative_url }}" aria-label="Leggi l’articolo: {{ latest.title | escape }}">Leggi l’articolo</a>
     </div>
   </article>
+</section>
+{% endif %}
 
-  {%- endfor -%}
-  {%- endif -%}
-
-
-  {%- if site.posts.size > 10 -%}
-    <hr/>
-    <br/>
-    <a href='{{ "/archive/posts/" | prepend: site.baseurl }}'><i class="fas fa-angle-double-left"></i> Show archived posts</a>
-  {%- endif -%}
-</div>
+<section class="recent" aria-labelledby="recent-title">
+  <div class="section-heading">
+    <h2 id="recent-title">Altri articoli</h2>
+    <a href="{{ '/archive/posts/' | relative_url }}">Tutti gli articoli</a>
+  </div>
+  {% for post in site.posts offset:1 limit:9 %}
+    <article class="recent-article">
+      <p class="post-meta">{% include date.html date=post.date %}</p>
+      <div>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+        {% if site.show_excerpts %}
+          <div class="excerpt">{{ post.excerpt }}</div>
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</section>

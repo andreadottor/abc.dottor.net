@@ -1,34 +1,11 @@
-
-
-<footer class="border-top footer text-muted mt-5 pt-5 pb-5">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <dl class="contact-list">
-          <dd class="p-name">
-            {%- if site.author -%}
-            &copy; {{ site.author | escape }}
-            {%- else -%}
-            {{ site.title | escape }}
-            {%- endif -%}
-          </dd>
-          {%- if site.email -%}
-          <dd><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></dd>
-          {%- endif -%}
-          <dd><a href="/privacy/" title="Privacy Policy">Privacy</a></dd>
-        </ul>
-      </div>
-      <div class="col">
-        <div class="footer-col one-half">
-          <p>{{- site.description | escape -}}</p>
-
-        </div>
-
-        <div class="social-links">
-          {%- include social.html -%}
-        </div>
-
-      </div>
+<footer class="site-footer">
+  <div class="site-width footer-inner">
+    <div>
+      <p class="footer-name">&copy; {{ site.author | default: site.title | escape }}</p>
+      <p>{{ site.description | escape }}</p>
     </div>
+    <nav aria-label="Informazioni e collegamenti">
+      {%- include social.html -%}
+    </nav>
   </div>
 </footer>

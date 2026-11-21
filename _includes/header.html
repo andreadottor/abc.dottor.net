@@ -1,29 +1,18 @@
-<header>
-  <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-      <div class="container">
-          {%- assign default_paths = site.pages | map: "path" -%}
-          {%- assign page_paths = site.header_pages | default: default_paths -%}
-          {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-          <a class="navbar-brand mb-0 h1 text-primary" rel="author" href="{{ "/" | relative_url }}">
-            <img src="/images/logo_abc.png" alt="logo abc" />
-            {{ site.author }}<!--{{ site.title | escape }}-->
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                  aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-              <ul class="navbar-nav ml-auto">
-                  {%- for path in page_paths -%}
-                  {%- assign my_page = site.pages | where: "path", path | first -%}
-                  {%- if my_page.title -%}
-                  <li class="nav-item">
-                    <a class="nav-link text-dark" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-                  </li>
-                  {%- endif -%}
-                {%- endfor -%}
-              </ul>
-          </div>
-      </div>
-  </nav>
+<header class="site-header">
+  <div class="site-width header-inner">
+    <a class="brand" rel="author" href="{{ '/' | relative_url }}">
+      <img src="{{ '/images/logo_abc.png' | relative_url }}" width="91" height="90" alt="">
+      {{ site.author | escape }}
+    </a>
+    <nav aria-label="Navigazione principale">
+      <ul>
+        {%- for path in site.header_pages -%}
+          {%- assign nav_page = site.pages | where: "path", path | first -%}
+          {%- if nav_page.title -%}
+            <li><a href="{{ nav_page.url | relative_url }}"{% if page.url == nav_page.url %} aria-current="page"{% endif %}>{{ nav_page.title | escape }}</a></li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    </nav>
+  </div>
 </header>
