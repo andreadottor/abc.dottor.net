@@ -10,7 +10,7 @@ loadComments.addEventListener("click", () => {
   window.disqus_config = function () {
     this.page.url = thread.dataset.url;
     this.page.identifier = thread.dataset.url;
-    this.page.language = "it";
+    this.language = "it";
   };
 
   const script = document.createElement("script");

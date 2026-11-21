@@ -7,7 +7,7 @@ layout: default
     <p class="post-meta">
       {% include date.html date=page.date %}
       {% assign author = page.author | default: site.author %}
-      {% if author %}<span aria-hidden="true"> · </span><span itemprop="author">{{ author | escape }}</span>{% endif %}
+      {% if author %}<span aria-hidden="true"> · </span><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">{{ author | escape }}</span></span>{% endif %}
     </p>
     {% if page.tags.size > 0 %}
       <ul class="tags" aria-label="Argomenti">
