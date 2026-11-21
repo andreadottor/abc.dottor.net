@@ -1,20 +1,11 @@
 {%- if page.comments != false and jekyll.environment == "production" -%}
-
-  <div id="disqus_thread"></div>
-  <script>
-    var disqus_config = function () {
-      this.page.url = '{{ page.url | absolute_url }}';
-      this.page.identifier = '{{ page.url | absolute_url }}';
-    };
-
-    (function() {
-      var d = document, s = d.createElement('script');
-
-      s.src = 'https://{{ site.disqus.shortname }}.disqus.com/embed.js';
-
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+<section class="comments" aria-labelledby="comments-title">
+  <h2 id="comments-title" tabindex="-1">Commenti</h2>
+  <p id="comments-notice">Disqus è un servizio esterno e può usare cookie. Vedi l’<a href="{{ '/privacy/' | relative_url }}">informativa sulla privacy</a>.</p>
+  <button type="button" id="load-comments" aria-describedby="comments-notice" aria-controls="disqus_thread" hidden>Carica i commenti di Disqus</button>
+  <p id="comments-status" role="status"></p>
+  <div id="disqus_thread" data-shortname="{{ site.disqus.shortname | escape }}" data-url="{{ page.url | absolute_url | escape }}"></div>
+  <noscript>Per caricare i commenti di Disqus è necessario JavaScript.</noscript>
+</section>
+<script src="{{ '/assets/scripts/comments.js' | relative_url }}" defer></script>
 {%- endif -%}

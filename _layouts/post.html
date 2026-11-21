@@ -1,57 +1,36 @@
 ---
 layout: default
 ---
-<div class="row">
-  <div class="col">
-
-
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    {% if page.header_image %}
-    <img class="img-fluid" alt="{{ page.title }} header image" src="{{ page.header_image | prepend: site.baseurl }}" />
-    {% if page.header_image_credits %}
-    <div class="text-right credits">
-      {{page.header_image_credits}}
-    </div>
-    {% endif %}
-    {% endif %}
-    <h1 class="post-title p-name text-primary" itemprop="name headline">{{ page.title | escape }}</h1>
+<article class="reading-column" itemscope itemtype="https://schema.org/BlogPosting">
+  <header class="article-header">
+    <h1 itemprop="headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
-        <i class="far fa-calendar-alt"></i>
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        <i class="far fa-user ml-3"></i>  
-        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
-        {%- endif -%}
-      {% assign tags = page.tags | default: post.tags %}
-      
-      {%- if tags.size > 0 -%}
-        <span class="tags ml-3">
-          {% for tag in tags %}
-            <i class="fas fa-tag"></i>
-            {{ tag }}
-          {% endfor %}
-        </span>
-      {%- endif -%}
+      {% include date.html date=page.date %}
+      {% assign author = page.author | default: site.author %}
+      {% if author %}<span aria-hidden="true"> · </span><span itemprop="author">{{ author | escape }}</span>{% endif %}
     </p>
+    {% if page.tags.size > 0 %}
+      <ul class="tags" aria-label="Argomenti">
+        {% for tag in page.tags %}<li>{{ tag | escape }}</li>{% endfor %}
+      </ul>
+    {% endif %}
   </header>
 
-  <div>
+  {% assign cover = page.header_image | strip %}
+  {% if cover != empty %}
+    <figure class="article-cover">
+      <img src="{{ cover | relative_url | escape }}" alt="">
+      {% if page.header_image_credits %}
+        <figcaption>{{ page.header_image_credits }}</figcaption>
+      {% endif %}
+    </figure>
+  {% endif %}
 
-  </div>
-  <div class="post-content e-content" itemprop="articleBody">
+  <div class="prose" itemprop="articleBody">
     {{ content }}
   </div>
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
-</div>
-</div>

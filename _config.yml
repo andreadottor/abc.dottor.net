@@ -1,17 +1,16 @@
 title: Blog di Andrea Dottor
 author: Andrea Dottor
+lang: it
+locale: it_IT
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://abc.dottor.net" # the base hostname & protocol for your site
 # email: your-email@domain.com  # Comment out this line if you don't want to expose your email.
 description: > # this means to ignore newlines until "baseurl:"
-  Pensieri liberi di una mente dispersa.
-  Di codice, di parole, di persone...
+  Il blog personale di Andrea Dottor su sviluppo .NET, architettura software e lavoro nei team tecnici.
 
 exclude: ['README.md', 'CODE_OF_CONDUCT.md', 'vendor/bundle']
 show_excerpts: true # set to true to show excerpts on the homepage
 excerpt_separator: <!--more-->
-
-google_analytics: 'UA-135789741-1'
 
 #
 # Jekyll Settings
@@ -29,11 +28,7 @@ disqus:
     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
     shortname: dottor
 
-# Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
-  date_format: "%b %-d, %Y"
-
   # generate social links in footer
   social_links:
     twitter: dottor
@@ -72,4 +67,4 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-sitemap
- 
+
