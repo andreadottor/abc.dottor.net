@@ -2,7 +2,7 @@
 <ul>
   {% if social.github %}<li><a href="https://github.com/{{ social.github | cgi_escape }}">GitHub</a></li>{% endif %}
   {% if social.linkedin %}<li><a href="https://www.linkedin.com/in/{{ social.linkedin | cgi_escape }}">LinkedIn</a></li>{% endif %}
-  {% if social.twitter %}<li><a href="https://twitter.com/{{ social.twitter | cgi_escape }}">Twitter</a></li>{% endif %}
+  {% if social.bluesky %}<li><a href="https://bsky.app/profile/{{ social.bluesky | cgi_escape }}">Bluesky</a></li>{% endif %}
   {% if social.rss %}<li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>{% endif %}
   <li><a href="{{ '/privacy/' | relative_url }}">Privacy</a></li>
 </ul>

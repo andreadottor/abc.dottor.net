@@ -31,7 +31,7 @@ disqus:
 minima:
   # generate social links in footer
   social_links:
-    twitter: dottor
+    bluesky: andrea.dottor.net
     github: andreadottor
     linkedin: andreadottor
     rss: rss
